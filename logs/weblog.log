@@ -3,3 +3,57 @@
 2019-08-02 07:37:12,164 INFO: Weblog startup [in /Users/martinqian/weblog/app/__init__.py:47
 2019-08-02 22:47:27,300 INFO: Weblog startup [in /Users/martinqian/weblog/app/__init__.py:47
 2019-08-02 22:47:52,969 INFO: Weblog startup [in /Users/martinqian/weblog/app/__init__.py:47
+2019-08-04 15:13:42,106 INFO: Weblog startup [in /Users/martinqian/weblog/app/__init__.py:49
+2019-08-04 15:18:23,092 INFO: Weblog startup [in /Users/martinqian/weblog/app/__init__.py:49
+2019-08-04 15:24:19,895 INFO: Weblog startup [in /Users/martinqian/weblog/app/__init__.py:48
+2019-08-04 15:59:29,381 INFO: Weblog startup [in /Users/martinqian/weblog/app/__init__.py:48
+2019-08-04 16:15:18,675 INFO: Weblog startup [in /Users/martinqian/weblog/app/__init__.py:48
+2019-08-04 16:28:24,285 INFO: Weblog startup [in /Users/martinqian/weblog/app/__init__.py:48
+2019-08-04 16:38:01,023 INFO: Weblog startup [in /Users/martinqian/weblog/app/__init__.py:48
+2019-08-04 16:38:32,992 INFO: Weblog startup [in /Users/martinqian/weblog/app/__init__.py:48
+2019-08-04 16:39:46,290 INFO: Weblog startup [in /Users/martinqian/weblog/app/__init__.py:48
+2019-08-04 16:45:12,398 INFO: Weblog startup [in /Users/martinqian/weblog/app/__init__.py:48
+2019-08-04 19:29:17,111 INFO: Weblog startup [in /Users/martinqian/weblog/app/__init__.py:48
+2019-08-04 19:29:52,026 INFO: Weblog startup [in /Users/martinqian/weblog/app/__init__.py:48
+2019-08-04 19:58:59,984 INFO: Weblog startup [in /Users/martinqian/weblog/app/__init__.py:48
+2019-08-04 20:05:10,186 INFO: Weblog startup [in /Users/martinqian/weblog/app/__init__.py:48
+2019-08-04 20:06:51,509 INFO: Weblog startup [in /Users/martinqian/weblog/app/__init__.py:48
+2019-08-04 20:14:56,461 INFO: Weblog startup [in /Users/martinqian/weblog/app/__init__.py:48
+2019-08-04 20:17:57,057 INFO: Weblog startup [in /Users/martinqian/weblog/app/__init__.py:48
+2019-08-04 20:25:19,394 INFO: Weblog startup [in /Users/martinqian/weblog/app/__init__.py:48
+2019-08-04 21:44:12,553 INFO: Weblog startup [in /Users/martinqian/weblog/app/__init__.py:50
+2019-08-04 21:47:04,561 ERROR: Exception on /reset_password_request [POST] [in /Users/martinqian/weblog/venv/lib/python3.7/site-packages/flask/app.py:1891
+Traceback (most recent call last):
+  File "/Users/martinqian/weblog/venv/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/martinqian/weblog/venv/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/martinqian/weblog/venv/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/martinqian/weblog/venv/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/martinqian/weblog/venv/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/martinqian/weblog/venv/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/martinqian/weblog/app/routes.py", line 164, in reset_password_request
+    flask('Check your email for the instructions to reset your password')
+NameError: name 'flask' is not defined
+2019-08-04 21:48:13,448 ERROR: Exception on /reset_password_request [POST] [in /Users/martinqian/weblog/venv/lib/python3.7/site-packages/flask/app.py:1891
+Traceback (most recent call last):
+  File "/Users/martinqian/weblog/venv/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/martinqian/weblog/venv/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/martinqian/weblog/venv/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/martinqian/weblog/venv/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/martinqian/weblog/venv/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/martinqian/weblog/venv/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/martinqian/weblog/app/routes.py", line 164, in reset_password_request
+    flash('Check your email for the instructions to reset your password')
+NameError: name 'flask' is not defined
+2019-08-04 21:48:26,915 INFO: Weblog startup [in /Users/martinqian/weblog/app/__init__.py:50
