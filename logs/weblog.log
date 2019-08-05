@@ -58,3 +58,7 @@ Traceback (most recent call last):
 NameError: name 'flask' is not defined
 2019-08-04 21:48:26,915 INFO: Weblog startup [in /Users/martinqian/weblog/app/__init__.py:50
 2019-08-04 22:00:24,333 INFO: Weblog startup [in /Users/martinqian/weblog/app/__init__.py:50
+2019-08-04 23:05:39,953 INFO: Weblog startup [in /Users/martinqian/weblog/app/__init__.py:51
+2019-08-04 23:05:53,812 INFO: Weblog startup [in /Users/martinqian/weblog/app/__init__.py:51
+2019-08-04 23:06:27,148 INFO: Weblog startup [in /Users/martinqian/weblog/app/__init__.py:51
+2019-08-04 23:06:54,364 INFO: Weblog startup [in /Users/martinqian/weblog/app/__init__.py:51
