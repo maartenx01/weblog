@@ -42,8 +42,8 @@ if not app.debug:
         app.logger.addHandler(mail_handler)
     
     if app.config['LOG_TO_STDOUT']:
-        stream_handler = loggin.StreamHandler()
-        stream_handler.setLevell(logging.INFO)
+        stream_handler = logging.StreamHandler()
+        stream_handler.setLevel(logging.INFO)
         app.logger.addHandler(stream_handler)
     else:
         if not os.path.exists('logs'):
