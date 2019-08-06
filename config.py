@@ -14,3 +14,4 @@ class Config(object):
     MAIL_ADMIN = os.environ.get('MAIL_ADMIN')
     ADMINS = [MAIL_ADMIN]
     POSTS_PER_PAGE = 25
+    LOG_TO_STDOUT = os.environ.get('LOG_TO_STDOUT')
